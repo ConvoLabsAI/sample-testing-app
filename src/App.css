@@ -1,0 +1,153 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* Center the app container vertically and horizontally */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*background-color: #f9fafb;*/
+}
+
+/* Content box styling */
+.content {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #e5e7eb; /* Light border */
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Title styling */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937; /* Dark gray */
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.record-btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* Start recording button */
+.start-btn {
+  background-color: #3b82f6; /* Blue */
+  color: white;
+}
+
+.start-btn:hover {
+  background-color: #2563eb; /* Darker blue */
+}
+
+/* Stop recording button */
+.stop-btn {
+  background-color: #ef4444; /* Red */
+  color: white;
+}
+
+.stop-btn:hover {
+  background-color: #dc2626; /* Darker red */
+}
+
+/* Recording message */
+.recording-message {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #10b981; /* Green */
+}
+
+/* Results section */
+.results {
+  margin-top: 20px;
+}
+
+.block {
+  margin-bottom: 20px;
+  text-align: left;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px 15px;
+  background-color: #f8fafc; /* Light background for blocks */
+}
+
+.block-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #111827; /* Darker text */
+  margin-bottom: 8px;
+}
+
+.block-content {
+  font-size: 1rem;
+  color: #374151; /* Gray text */
+}
+
+/* Button to play LLM audio */
+.play-audio-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #10b981; /* Green */
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.play-audio-btn:hover {
+  background-color: #059669; /* Darker green */
+}
